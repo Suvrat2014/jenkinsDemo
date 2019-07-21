@@ -99,7 +99,13 @@ public class HomeController {
     	model.addAttribute("captureType", cRM.getCaptureType());
     	
         return "/CRMResult";
-    }    
+    } 
+    
+    public String testing(String testname) {
+    	return testname;
+    	
+    }
+    
  }
     
     
